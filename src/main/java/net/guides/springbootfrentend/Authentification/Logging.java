@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 @Scope("prototype")
 public class Logging {
     public String log(Employee e){
-        return "employee: "+e.getFirstName()+", "+e.getLastName();
+        return "employee: "+e.getFirstName()+",espace "+e.getLastName();
     }
 }
